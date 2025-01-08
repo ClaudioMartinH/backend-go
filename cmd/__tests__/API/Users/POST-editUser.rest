@@ -1,0 +1,7 @@
+PUT http://localhost:8080/Users/edit/1b48c9e5-aaf5-4eaa-b4da-a7060bfb069f
+Content-Type: application/json
+
+{
+  "Firstname": "Telma",
+  "Lastname": "Laborda Herranz"
+  }

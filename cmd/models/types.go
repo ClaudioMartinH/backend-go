@@ -12,3 +12,13 @@ type Product struct {
 	Description string
 	Price       float64
 }
+
+type CartItem struct {
+	Product  Product
+	Quantity int
+}
+
+type CartData struct {
+	Products   []Product
+	TotalPrice float64
+}

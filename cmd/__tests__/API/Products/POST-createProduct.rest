@@ -1,0 +1,8 @@
+POST http://localhost:8080/Products
+Content-Type: application/json
+
+{
+  "Name": "MacBook Air 2024",
+  "Description": "Portable Apple computer",
+  "Price": 1299.50,
+}
